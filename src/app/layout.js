@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Rajveer Public School",
-  description: "School Website",
+  title: "Rajveer Public School Kolhapur",
+  description: "Best school in Kolhapur with Gurukul pattern education, modern facilities, and holistic learning.",
 };
 
 export default function RootLayout({ children }) {
