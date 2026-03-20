@@ -82,6 +82,8 @@ export default function Navbar() {
 
           <Link href="/#home" onClick={() => setMenuOpen(false)}>Home</Link>
 
+          <Link href="/gurukul" onClick={() => setMenuOpen(false)}>Gurukul</Link>
+
           <Link href="/about" onClick={() => setMenuOpen(false)}>About</Link>
 
           <Link href="/#academics" onClick={() => setMenuOpen(false)}>Academics</Link>
