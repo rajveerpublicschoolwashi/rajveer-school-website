@@ -16,26 +16,18 @@ export default function Navbar() {
         {/* Logo */}
 
         <Link href="/" className="flex items-center gap-3">
+            <Image
+                src="/logo.png"
+                width={40}
+                height={40}
+                alt="School Logo"
+            />
 
-  <Image
-    src="/logo.png"
-    width={40}
-    height={40}
-    alt="School Logo"
-  />
-
-  <span className="font-bold text-lg">
-    Rajveer Public School
-  </span>
-
-</Link>
-
-          <span className="font-bold text-lg">
+        <span className="font-bold text-lg">
             Rajveer Public School
-          </span>
+        </span>
 
-        </div>
-
+        </Link>
 
         {/* Desktop Menu */}
 
