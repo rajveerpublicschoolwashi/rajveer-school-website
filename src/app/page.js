@@ -62,7 +62,7 @@ export default function Home() {
 
       <Stats />
 
-/* ACADEMICS */
+      {/* ACADEMICS */}
 
 <section id="academics" className="py-16 bg-gray-100 text-center">
 
