@@ -27,35 +27,50 @@ export default function Home() {
 
       {/* HERO */}
 
-      <section
-        id="home"
-        className="h-[550px] flex items-center justify-center text-center text-white"
-        style={{
-          backgroundImage: "url('/hero.jpg')",
-          backgroundSize: "cover",
-          backgroundPosition: "center"
-        }}
-      >
-        <div className="bg-black/50 p-10 rounded">
-
-          <h1 className="text-5xl font-bold">
-            Rajveer Public School
-          </h1>
-
-          <p className="mt-4 text-xl">
-            Discover Bright Beginnings
-          </p>
-
-          <a
-  href="https://wa.me/917057603603?text=Hello%20I%20want%20information%20about%20school%20admission"
-  target="_blank"
-  className="mt-6 inline-block bg-yellow-400 text-black px-6 py-3 rounded font-semibold"
+<section
+  id="home"
+  className="h-[550px] flex items-center justify-center text-center text-white"
+  style={{
+    backgroundImage: "url('/hero.jpg')",
+    backgroundSize: "cover",
+    backgroundPosition: "center"
+  }}
 >
-  Admission Open 2026
-</a>
+  <div className="bg-black/50 p-10 rounded">
 
-        </div>
-      </section>
+    <h1 className="text-5xl font-bold">
+      Rajveer Public School
+    </h1>
+
+    <p className="mt-4 text-xl">
+      Discover Bright Beginnings
+    </p>
+
+    {/* Buttons */}
+    <div className="mt-6 flex flex-col sm:flex-row gap-4 justify-center">
+
+      {/* Admission Button */}
+      <a
+        href="https://wa.me/917057603603?text=Hello%20I%20want%20information%20about%20school%20admission"
+        target="_blank"
+        className="bg-yellow-400 text-black px-6 py-3 rounded font-semibold hover:bg-yellow-300 transition"
+      >
+        Admission Open 2026
+      </a>
+
+      {/* Download Brochure Button */}
+      <a
+        href="/brochure.pdf"
+        download
+        className="bg-white text-blue-900 px-6 py-3 rounded font-semibold border border-blue-900 hover:bg-blue-100 transition"
+      >
+        📄 Download Brochure
+      </a>
+
+    </div>
+
+  </div>
+</section>
 
 
       {/* STATS */}
